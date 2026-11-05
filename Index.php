@@ -4,9 +4,7 @@
    ========================================================= */
 session_start();
 
-/* Data shape in $_SESSION:
-   folders = [ ['id' => 1, 'name' => 'My Tasks',
-                'tasks' => [ ['id' => 1, 'name' => '...', 'description' => '...', 'done' => false] ]] ] */
+
 $_SESSION['folders']        = $_SESSION['folders']        ?? [['id' => 1, 'name' => 'My Tasks', 'tasks' => []]];
 $_SESSION['next_folder_id'] = $_SESSION['next_folder_id'] ?? 2;
 $_SESSION['next_task_id']   = $_SESSION['next_task_id']   ?? 1;
