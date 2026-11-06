@@ -502,7 +502,7 @@ input[type="text"]:focus {
 .task.removing { opacity: 0.3; transition: opacity 0.2s; }
 
 /* =========================================================
-   Small screens: sidebar moves above the content
+   Small screens: sidebar moves above the content tae
    ========================================================= */
 @media (max-width: 760px) {
     .layout { grid-template-columns: 1fr; }
